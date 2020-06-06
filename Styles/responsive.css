@@ -1,0 +1,33 @@
+
+@media (max-width: 915px) {
+    #page-home {
+        background-position-x: 80vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: -30px;
+				left: 10px;
+        transform: translateX(45%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+}
+@media (min-width: 1600px) {
+		#page-home {
+			background-position-x: 45vw;
+		}
+
+}
+
+@media (max-height: 670px) {
+		#page-home {
+			background-position-y: 90px;
+}
