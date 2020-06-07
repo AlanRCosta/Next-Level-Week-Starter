@@ -11,9 +11,12 @@
 
     #page-home header a{
         position: absolute;
-        bottom: -30px;
-				left: 10px;
-        transform: translateX(45%);
+        bottom: 40px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 250px;
     }
 
     #page-home main {
@@ -29,5 +32,6 @@
 
 @media (max-height: 670px) {
 		#page-home {
-			background-position-y: 90px;
+      background-position-y: 90px;
+    }        
 }
