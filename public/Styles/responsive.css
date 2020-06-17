@@ -1,0 +1,51 @@
+
+@media (max-width: 915px) {
+    #page-home {
+        background-position-x: 80vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 40px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 250px;
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 200px;
+    }
+    #page-create-point .field group {
+      flex-direction: column;
+    }
+    #page-create-point .field group .field + .field {
+      margin-left: 0;
+    }
+}
+@media (min-width: 1600px) {
+		#page-home {
+			background-position-x: 45vw;
+		}
+
+}
+
+@media (max-height: 670px) {
+		#page-home {
+      background-position-y: 90px;
+    }        
+}

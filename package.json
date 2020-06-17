@@ -1,0 +1,26 @@
+{
+  "name": "next-level-week-starter",
+  "version": "1.0.0",
+  "description": "Rocktseat NLW Starter Course",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanRCosta/Next-Level-Week-Starter.git"
+  },
+  "author": "ALan Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanRCosta/Next-Level-Week-Starter/issues"
+  },
+  "homepage": "https://github.com/AlanRCosta/Next-Level-Week-Starter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
