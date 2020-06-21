@@ -34,7 +34,7 @@ server.get("/create-point", (req, res) => {
 //re.query: Query strings da nossa url
 //console.log(req.query)
 
-	return res.render("create-point.html", { saved: true })
+	return res.render("create-point.html")
 })
 
 server.post("/savepoint", (req, res) => {
@@ -95,7 +95,6 @@ server.get("/search-results", (req, res) => {
 			}
 
 			const total = rows.length
-
 			//mostrar a página html com os dados do banco de dados
 			return res.render("search-results.html", { places: rows, total: total})
 		})	

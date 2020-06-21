@@ -8,7 +8,7 @@
 
 {% block styles %}
 		<link rel="stylesheet" href="/styles/create-point.css">
-    <link rel="stylesheet" href="/styles/modal.css">
+		<link rel="stylesheet" href="/styles/modal.css">
 {% endblock styles %}
 
 {% block content %}
@@ -24,20 +24,16 @@
 						</legend>
 
 						<div class="field-group">
-							<div class="field">
-								<label for="name">Nome da entidade</label>
-								<input type="text" name="name" required="required">
-							</div>
+								<div class="field">
+										<label for="name">Nome da entidade</label>
+										<input type="text" name="name" required="required">
+								</div>
 
-							<div class="field">
-								<label for="name">Imagem da entidade</label>
-								<input 
-									type="url" 
-									name="image"
-									placeholder="http://" 
-									required="required">
-							</div>
-						</div>	
+								<div class="field">
+										<label for="name">Imagem da entidade</label>
+										<input type="url" name="image" placeholder="http://" required="required">
+								</div>
+						</div>
 
 						<div class="field-group">
 								<div class="field">
@@ -46,7 +42,7 @@
 								</div>
 
 								<div class="field">
-										<label for="address">Número/Complemento</label>
+										<label for="address2">Número/Complemento</label>
 										<input type="text" name="address2" required="required">
 								</div>
 						</div>
@@ -118,9 +114,9 @@
 {% endblock content %}
 
 {% block modal %}
-	  {% if saved %}
-      {% include "partials/point-created.html" %}
-    {% endif %}
+		{% if saved %}
+				{% include "partials/point-created.html" %}
+		{% endif %}
 {% endblock modal %}
 
 {% block scripts %}
