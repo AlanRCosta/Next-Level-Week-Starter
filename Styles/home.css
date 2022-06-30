@@ -2,7 +2,7 @@
 #page-home {
     height: 100vh;
 
-    background: url('../icones/home-background.svg') no-repeat;
+    background: url('../public/icones/home-background.svg') no-repeat;
     background-position: 35vw bottom;
 }
 
@@ -36,7 +36,7 @@
     margin-right: 16px;
     display: flex;
     
-    background-image: url('../icones/log-in.svg');
+    background-image: url('../public/icones/log-in.svg');
 
     width: 20px;
     height: 20px;
@@ -99,7 +99,7 @@
 
 #page-home main a span::after{
     content:"";
-    background-image: url('../icones/search.svg');
+    background-image: url('../public/icones/search.svg');
 
     width: 20px;
     height: 20px;
